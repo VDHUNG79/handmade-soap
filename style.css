@@ -1,0 +1,100 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header,
+.footer {
+  grid-column: 1/3;
+}
+
+
+.header {
+  background-color: #384add;
+  width: calc(100% + 250px);
+  color: #ffffff;
+  text-align: center;
+}
+
+.sidebar {
+  padding: 20px 5px;
+}
+
+img .label {
+  /* width: 50px;
+  height: 50px;
+  padding-right: 50px; */
+}
+
+.main-pic {
+  padding: 20px 20px;
+}
+
+.title-top-main {
+  text-align: center;
+  padding: 20px;
+}
+
+.text-collection {
+  text-align: center;
+}
+
+.collection-1,
+.collection-2
+ {
+  display: flex;
+ margin: 10px 20px;
+}
+
+.smaill {
+  border: 1px solid grey;
+  margin: 10px 10px;
+  width: 380px;
+  height: 500px ;
+}
+
+.smaill img {
+  width: 360px;
+  height: 360px;
+  padding-left: 8px;
+  padding-top: 10px;  
+}
+
+.smaill h2 {
+  text-align: center;
+  word-wrap: break-word;
+  padding: 0 10px;
+}
+
+input {
+ margin-left: 90px;
+}
+
+.first-menu {
+  list-style-type: none;
+  text-align: center;
+  padding: 20px 30px;
+
+}
+
+li {
+  padding: 12px 0;
+}
+
+a:link {
+  text-decoration: none;
+  color: #7d807b;
+}
+
+.title-bottom-main {
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+}
+
+.slogan {
+  margin: 0 50px;
+}
